@@ -2,5 +2,23 @@
     "manifest_version": 2,
     "name": "Auto-Refresh",
     "description": "Yet Another Auto Refresher that notice your frontend page and, refresh if it noticed any changes",
-    "version": "0.0.1"
+    "version": "0.0.1",
+    "permissions": [
+        "activeTab",
+        "background"
+    ],
+    "browser_action": {
+        "default_title": "Auto Refresh"
+    },
+    "background": {
+        "scripts": [
+            "lib/jquery.js",
+            "lib/underscore.js",
+            "lib/async.js",
+            "lib/angular.js",
+            "/lib/socket.io.js",
+            "autorefresh.js"
+        ]
+    }
+
 }

@@ -15,7 +15,8 @@
         "underscore": "*",
         "express": "*",
         "mysql": "*",
-        "socket.io": "*"
+        "socket.io": "*",
+        "watchr": "*"
     },
     "engines": {
         "node": ">= 0.10.0"
