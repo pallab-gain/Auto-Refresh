@@ -1,0 +1,5 @@
+Yet another auto page refresher
+Will watch your current page, and auto reload it if it noticed any page changes
+For frontend development mainly.
+I could tell in word how much I hate to manual refresh to see my changes in html or js.
+This will be an chrome apps

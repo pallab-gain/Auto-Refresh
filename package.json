@@ -1,0 +1,23 @@
+{
+    "name": "Auto-Refresh",
+    "description": "Yet Another Auto Refresher that notice your frontend page and, refresh if it noticed any changes",
+    "version": "0.0.1",
+    "author": {
+        "name": "Xerxes",
+        "email": "pallab.gain@gmail.com"
+    },
+    "script": {
+        "start": "nodemon app.js"
+    },
+    "dependencies": {
+        "jquery": "*",
+        "async": "*",
+        "underscore": "*",
+        "express": "*",
+        "mysql": "*",
+        "socket.io": "*"
+    },
+    "engines": {
+        "node": ">= 0.10.0"
+    }
+}

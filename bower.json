@@ -1,0 +1,12 @@
+{
+    "name": "Auto-Refresh",
+    "version": "0.0.1",
+    "dependencies": {
+        "jquery": "latest",
+        "jquery-ui": "latest",
+        "angular": "latest",
+        "async": "latest",
+        "bootstrap": "latest",
+        "underscore": "latest"
+    }
+}
