@@ -1,0 +1,6 @@
+{
+    "manifest_version": 2,
+    "name": "Auto-Refresh",
+    "description": "Yet Another Auto Refresher that notice your frontend page and, refresh if it noticed any changes",
+    "version": "0.0.1"
+}

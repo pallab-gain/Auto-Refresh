@@ -7,7 +7,7 @@
         "email": "pallab.gain@gmail.com"
     },
     "script": {
-        "start": "nodemon app.js"
+        "start": "nodemon server.js"
     },
     "dependencies": {
         "jquery": "*",
