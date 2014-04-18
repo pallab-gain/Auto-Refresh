@@ -14,17 +14,8 @@ var state = function State() {
     }
 }();
 
-var socket = io.connect('http://localhost:3000');
-chrome.browserAction.onClicked.addListener(function (tab) {
-    state.switch_state();
-    if (state.get_state() === true) {
-        alert('join me');
-        socket.emit('join');
-    }
-    socket.on('request', function (status) {
-        socket.emit('watch_dir', {dirs: ['app']})
-    });
-    socket.on('request_reload', function () {
-        alert('Reload me please');
-    });
+var app = angular.module('AutoRefresh', []);
+
+app.controller('RefreshCtrl', function ($scope) {
+    $scope.socket = io.connect('')
 });
